@@ -66,6 +66,7 @@ function setup() {
     playStep(time);
     currentStep = (currentStep + 1) % cols;
   }, "16n"); //>>>CHANGE: the devision 16n, 8n, 4n, etc
+  Tone.Transport.swing = 0.4
 
 
   
